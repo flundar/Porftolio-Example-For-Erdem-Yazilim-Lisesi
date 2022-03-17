@@ -342,7 +342,7 @@ button {
     display: inline-block;
     padding: 10px 20px;
     background-color: #fff;
-    color: white;
+    color: black;
     font-size: 12px;
     font-weight: 800;
     letter-spacing: 0.5px;
@@ -355,7 +355,7 @@ button {
 
 button:hover {
     outline: none;
-    background-color: #a43f49;
+    background-color: #212121;
     color: #fff;
 }
 
@@ -558,7 +558,7 @@ figure.snip1321 * {
   transition: all 0.2s ease-out;
 }
 figure.snip1321 figcaption {
-  top: 50%;
+  top: 40%;
   left: 20px;
   right: 20px;
   position: absolute;
@@ -574,12 +574,12 @@ figure.snip1321 span {
     font-size: 14px;
     font-style: italic;
     display: block;
-    color: #7a7a7a;
+    color: black;
 }
 figure.snip1321 i {
   position: relative!important;
   font-size: 18px;
-  background-color: #a43f49;
+  background-color: black;
   width: 40px;
   height: 40px;
   display: inline-block;
@@ -665,6 +665,10 @@ section.contact-me {
     line-height: 40px;
     width: 100%;
     padding-left: 15px;
+}
+
+#contact ::placeholder{
+    color: white;
 }
 
 
